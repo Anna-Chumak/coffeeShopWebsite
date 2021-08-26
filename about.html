@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+ 
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>CoffeeMan</title>
+  </head>
+  <body>
+    <!-- Start of the body -->
+    <!-- Start of the header -->
+    <header>
+      <div class="row header-image">
+        <img
+          src="/images/back_header.jpg"
+          alt=""
+          class="mirror zero-padding col l4 m3 s3"
+        />
+        <div class="col l4 s6 m6"><h1 class="center">Coffee Man</h1></div>
+        <img
+          src="/images/back_header.jpg"
+          alt=""
+          class="zero-padding col l4 m3 s3"
+        />
+      </div>
+      <!-- Start of the nav -->
+      <nav class="nav-center grey darken-3 black-text">
+        <div class="nav-wrapper black-text">
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="center hide-on-med-and-down grey darken-3">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="locations.html">Locations</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End of the nav -->
+      <!-- Start of the sidenav(mobile) -->
+      <ul class="sidenav grey darken-3" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="locations.html">Locations</a></li>
+      </ul>
+      <!-- End of the sidenav -->
+    </header>
+    <!-- End of the header -->
+
+    <!-- Start of the main content area -->
+    <main>
+        <div id="timeline" class="timeline-container"> 
+            <div class="timeline-header">
+                <h3 class="center timeline-h3">CoffeeMan History</h3>
+                <h4 class="center timeline-h4">We are proud of who we are!</h4>
+            </div>
+            <div class="timeline-main">
+                <div class="timeline-item active" data-text = 'Just a dream'>
+                    <div class="timeline-content">
+                        <img src="images/history/0.jpg" alt="" class="timeline-img" width ="1200px">
+                        <h2 class="timeline-year">2005</h2>
+                        <p class="timeline-text">In 2005, as a young woman sitting in a coffee shop, I had an idea of how cool that would be to have my own coffee shop. But at that time, having no resources and no knowledge about how to run a business, the idea was put aside in a far drawer.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text = 'Lucky walk'>
+                    <div class="timeline-main">
+                        <img src="images/history/1.jpg" alt="" class="timeline-img">
+                        <h2 class="timeline-year">2007</h2>
+                        <p class="timeline-text">One day, fall 2007, I was walking along one of the streets in Boston and was trying to find a coffee shop to warm up and enjoy a cup of coffee. But for about 30 minutes, there were no coffee shops, so I dived in the subway and went home instead. On my way back, I was wondering if I were the only one trying to find a coffee shop in that area. </p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text = 'First place'>
+                    <div class="timeline-main">
+                        <img src="images/history/2.jpg" alt="" class="timeline-img">
+                        <h2 class="timeline-year">2008</h2>
+                        <p class="timeline-text">After that day, I've trying to find a place in that area that would be fit for a coffee shop and on January 10th, I found that place. So the construction begun.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text = 'Grand opening'>
+                    <div class="timeline-main">
+                        <img src="images/history/3.jpg" alt="" class="timeline-img">
+                        <h2 class="timeline-year">2008</h2>
+                        <p class="timeline-text">Six months later, on July 10th, we opened the first CoffeeMan shop in Boston.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text = 'Expending horizons'>
+                    <div class="timeline-main">
+                        <img src="images/history/4.jpg" alt="" class="timeline-img">
+                        <h2 class="timeline-year">2011</h2>
+                        <p class="timeline-text">It took three years, but strating from 2011, we strated opening CoffeeMan shops in other cities and states in the US, cluding Los Angeles, San Francisco, New York and Chicago.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text = 'We keep moving'>
+                    <div class="timeline-main">
+                        <img src="images/history/5.jpg" alt="" class="timeline-img">
+                        <h2 class="timeline-year">2021</h2>
+                        <p class="timeline-text">Now having more than 25 shops, we are still continue to develop and grow. We constantly revise our menu and make sure that our customers are satisfied.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- End of the main content area -->
+<!-- Start of Footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container grey darken-3">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">CoffeeMan</h5>
+              <p class="grey-text text-lighten-4">A place to relax, feel the moment and enjoy coffee.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Contact Us</h5>
+              <ul>
+                <li><i class="material-icons tiny">call</i> 810-000-0000 </li>
+                <li><i class="material-icons tiny">mail</i> coffeeman@coffeman.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Anna Kuzava
+          </div>
+        </div>
+      </footer>
+      <!-- End of the footer -->
+
+
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
