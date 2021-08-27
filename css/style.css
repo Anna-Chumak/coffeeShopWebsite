@@ -24,6 +24,12 @@ main {
   width: fit-content;
 }
 
+.h1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .zero-padding {
   padding: 0 !important;
 }
@@ -258,9 +264,70 @@ nav.nav-center ul li a {
   color: rgb(2, 98, 2);
 }
 
-/* lovations page css */
+/* locations page css */
 
 .map > img {
   width: 100%;
   height: auto;
+}
+
+.map {
+  position: relative;
+}
+
+.map i {
+  color: rgb(92, 156, 92);
+  position: absolute;
+  font-size: 2.5rem;
+}
+
+.new-york {
+  top: 28%;
+  right: 13%;
+}
+
+.boston {
+  top: 24%;
+  right: 10%;
+}
+.chicago {
+  top: 35%;
+  right: 34%;
+}
+
+.detroit {
+  top: 33%;
+  right: 28%;
+}
+
+.san-francisco {
+  top: 40%;
+  left: 8%;
+}
+
+.los-angeles {
+  top: 55%;
+  left: 14%;
+}
+
+.dallas {
+  top: 65%;
+  left: 50%;
+}
+.atlanta {
+  top: 60%;
+  right: 23%;
+}
+
+.seattle {
+  top: 13%;
+  left: 14%;
+}
+.map i:hover {
+  color: red;
+}
+/* locationcard css */
+.locationCard,
+.card {
+  background-color: lightslategray;
 }
