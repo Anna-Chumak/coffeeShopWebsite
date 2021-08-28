@@ -325,9 +325,78 @@ nav.nav-center ul li a {
 }
 .map i:hover {
   color: red;
+  cursor: pointer;
 }
 /* locationcard css */
-.locationCard,
-.card {
-  background-color: lightslategray;
+
+.map-wrapper {
+  position: relative;
+}
+.hidden {
+  display: none;
+}
+
+.city {
+  position: absolute;
+  top: 40%;
+  left: 30% !important;
+}
+.card-title {
+  background-color: rgba(141, 110, 99, 0.7);
+  width: 100%;
+  text-shadow: 2px 0.5px lightslategray;
+}
+
+/* menu css */
+.menu-item img,
+.item-image img {
+  max-width: 100%;
+  max-height: 280px;
+  mix-blend-mode: multiply;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item i {
+  position: absolute;
+  top: 4%;
+  right: 27%;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px lightslategray;
+}
+
+.cold {
+  color: rgb(60, 129, 194);
+}
+
+.hot {
+  color: rgb(255, 142, 89);
+}
+
+.nutrition-heading {
+  font-weight: bold;
+}
+
+.item-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10% !important;
+  position: relative;
+}
+.item-image i {
+  position: absolute;
+  top: 26%;
+  right: 34%;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px lightslategray;
+}
+.item-container {
+  border: solid 3px black;
+  padding: 0.3rem;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
 }

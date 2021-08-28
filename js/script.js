@@ -43,3 +43,17 @@ $(document).ready(function () {
 })(jQuery);
 
 $("#timeline").timeline();
+
+$(".location").hover(showLocationCard);
+function showLocationCard() {
+  $(".city").toggleClass("hidden");
+}
+
+$(".location").click(showLocationCard);
+function showLocationCard() {
+  $(".city").toggleClass("hidden");
+}
+
+$(".city").on("mouseleave", function () {
+  $(".city").toggleClass("hidden");
+});
